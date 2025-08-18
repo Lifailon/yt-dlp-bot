@@ -41,10 +41,10 @@ Create a working directory, download the [docker-compose](./docker-compose.yml) 
 mkdir yt-dlp-bot
 cd yt-dlp-bot
 
-curl -sSL https://raw.githubusercontent.com/Lifailon/yt-dlp-bot/refs/heads/master/docker-compose.yml -o docker-compose.yml
+curl -sSL https://raw.githubusercontent.com/ssebastianoo/yt-dlp-telegram/refs/heads/master/docker-compose.yml -o docker-compose.yml
 
 echo '
-token = "TELEGRAM_APU_KEY_YOUR_BOT"
+token = "TELEGRAM_API_KEY_YOUR_BOT"
 logs = 2390049
 max_filesize = 50000000
 ' > config.py
